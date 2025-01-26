@@ -13,7 +13,7 @@ await page.setViewport({
   deviceScaleFactor: 2, // Upscales the resolution to 4K (3840x2160)
 });
 
-// Navigate to the page you want to screenshot
+/// Navigate to the page you want to screenshot
 await page.goto("https://scrapeautomate.com");
 
 // Take a screenshot
